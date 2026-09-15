@@ -1,0 +1,5 @@
+$env:CXX = "L:\mingw64\bin\g++.exe"
+$env:CC = "L:\mingw64\bin\gcc.exe"
+cmake -G "MinGW Makefiles" -B build
+cmake --build build
+./build/<NAME>.exe
